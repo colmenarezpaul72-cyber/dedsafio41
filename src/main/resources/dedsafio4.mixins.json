@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dedsafio4.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["ItemGroupsMixin"],
+  "injectors": { "defaultRequire": 0 }
+}

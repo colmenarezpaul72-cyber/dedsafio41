@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "dedsafio4",
+  "version": "${version}",
+  "name": "Dedsafio 4",
+  "description": "Catalogo unico Dedsafio: items nuevos, pestaña unica con los bloques al final y mejoras de Gleba.",
+  "authors": ["Dedsafio fan"],
+  "license": "All-Rights-Reserved",
+  "icon": "assets/dedsafio4/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dedsafio4.Dedsafio4"],
+    "client": ["dedsafio4.client.Dedsafio4Client"]
+  },
+  "mixins": ["dedsafio4.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "ghostsafio": "*",
+    "ghostitem": "*",
+    "ruleta_anim": "*",
+    "sacos": "*",
+    "silla": "*"
+  }
+}
