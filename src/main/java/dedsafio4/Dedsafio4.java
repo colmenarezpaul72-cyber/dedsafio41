@@ -69,7 +69,7 @@ public class Dedsafio4 implements ModInitializer {
 		GIGANTOFRUTA = reg("gigantofruta", new Item(s().food(
 				new FoodComponent.Builder().nutrition(8).saturationModifier(0.8f).build())));
 		CARNE_GLEBANOIDE = reg("carne_glebanoide", new Item(s().food(
-				new FoodComponent.Builder().nutrition(5).saturationModifier(0.5f).meat()
+				new FoodComponent.Builder().nutrition(5).saturationModifier(0.5f)
 						.statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 200), 0.3f).build())));
 		PASTILLA_VACIA = reg("pastilla_vacia", new Item(s()));
 		SANGRE_REPTISAURIO = reg("sangre_reptisaurio", new Item(s()));
